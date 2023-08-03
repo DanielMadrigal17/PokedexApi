@@ -1,0 +1,607 @@
+@media (max-width:768px){
+
+
+  
+body{
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.contenido{
+  border: 2px solid black;
+  width: 65%;
+  margin-left:20% ;
+background-color: #f0b6bc;
+
+}
+#titulo{
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.backimg{
+  border: 2px solid black;
+  height: 150px;
+  border-radius: 80px;
+
+}
+
+.stats2{
+border: 2px solid black;
+height: 35px;
+width: 100px;
+text-align: center;
+border-radius: 20px;
+color: white;
+background: #ed213957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+background: linear-gradient(to right, #93291E, #ED213A); 
+}
+.stats{
+  border: 2px solid black;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background: #ed213957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+  background: linear-gradient(to right, #93291E, #ED213A); 
+}
+
+:root {
+    --clr-black: #1c1c1c;
+    --clr-gray: #ececec;
+    --cl-white: #f7f7f7;
+    --type-normal: #a8a878;
+    --type-fire: #f08030;
+    --type-water: #6890f0;
+    --type-grass: #78c850;
+    --type-electric: #f8d030;
+    --type-ice: #98d8d8;
+    --type-figthing: #c03028;
+    --type-poison: #a040a0;
+    --type-ground: #e0c068;
+    --type-flying: #a890f0;
+    --type-psychic: #f85888;
+    --type-bug: #a8b820;
+    --type-rock: #b8a038;
+    --type-ghost: #705898;
+    --type-dark: #705848;
+    --type-dragon: #7038f8;
+    --type-steel: #b8b8d0;
+    --type-fairy: #f0b6bc;
+  }
+  .normal {
+    background-color: var(--type-normal);
+    color: var(--clr-black);
+    text-align: center;
+  }
+  
+  .fire {
+    background-color: var(--type-fire);
+    color: var(--cl-white);
+    text-align: center;
+
+  }
+  
+  .water {
+    background-color: var(--type-water);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .grass {
+    background-color: var(--type-grass);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .electric {
+    background-color: var(--type-electric);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .ice {
+    background-color: var(--type-ice);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .fighting {
+    background-color: var(--type-figthing);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .poison {
+    background-color: var(--type-poison);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .ground {
+    background-color: var(--type-ground);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .flying {
+    background-color: var(--type-flying);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .psychic {
+    background-color: var(--type-psychic);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .bug {
+    background-color: var(--type-bug);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .rock {
+    background-color: var(--type-rock);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .dark {
+    background-color: var(--type-dark);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .ghost {
+    background-color: var(--type-ghost);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .dragon {
+    background-color: var(--type-dragon);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .steel {
+    background-color: var(--type-steel);
+    color: var(--cl-white);
+    text-align: center;
+  }
+  
+  .fairy {
+    background-color: var(--type-fairy);
+    color: var(--cl-white);
+    text-align: center;
+  }
+
+  .move{
+    display: flex;
+    justify-content: space-evenly
+  }
+  .move10{
+    display: flex;
+    justify-content:start;
+    justify-content: center; 
+    
+  }
+
+  .moveimg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .move3{
+    text-align: center;  
+
+  }
+  .move4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #habilidades{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  #tipos{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .move3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+  }
+  
+  .dato{
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+    background: #ed213957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A); 
+    color: white;
+    margin-top: 2%;
+
+  }
+  .dato2{
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+    color: white;
+    background: #ed213957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A); 
+  }
+  .dato3{
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: white;
+    background: #ed213957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A); 
+
+  }
+  .move5{
+    display: flex;
+    justify-content: center;
+    
+   
+   }
+   #btn7{
+    display: flex;
+    justify-content: center;
+   
+    }
+
+    #btn7{
+      font-size: 20px;
+      display: flex;
+     margin-left: 45%;
+     background: rgba( 255, 255, 255, 0.25 );
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     backdrop-filter: blur( 20px );
+     -webkit-backdrop-filter: blur( 20px );
+     border-radius: 10px;
+     border: 2px solid rgb(0, 0, 0);
+     margin-bottom: 5%;
+    }
+    #Tit{
+      text-align: center;
+      font-size: 30px;
+      text-decoration:underline ;
+    }
+  
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px ) and (max-width:2500px){
+  
+body{
+ background-color:#705898;
+}
+
+.contenido{
+  border: 2px solid black;
+  width: 65%;
+  margin-left:20% ;
+  background-color:#a890f0;
+
+
+}
+#titulo{
+  text-align: center;
+  font-size: 30px;
+  
+}
+#Tit{
+  text-align: center;
+  font-size: 30px;
+  text-decoration:underline ;
+}
+
+.backimg{
+  border: 2px solid black;
+  height: 150px;
+  border-radius: 80px;
+
+}
+
+.stats2{
+border: 2px solid black;
+height: 35px;
+width: 100px;
+text-align: center;
+border-radius: 20px;
+color: white;
+background-color:#705898;
+}
+.stats{
+  border: 2px solid black;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background-color:#705898;
+}
+
+ 
+:root {
+  --clr-black: #1c1c1c;
+  --clr-gray: #ececec;
+  --cl-white: #f7f7f7;
+  --type-normal: #a8a878;
+  --type-fire: #f08030;
+  --type-water: #6890f0;
+  --type-grass: #78c850;
+  --type-electric: #f8d030;
+  --type-ice: #98d8d8;
+  --type-figthing: #c03028;
+  --type-poison: #a040a0;
+  --type-ground: #e0c068;
+  --type-flying: #a890f0;
+  --type-psychic: #f85888;
+  --type-bug: #a8b820;
+  --type-rock: #b8a038;
+  --type-ghost: #705898;
+  --type-dark: #705848;
+  --type-dragon: #7038f8;
+  --type-steel: #b8b8d0;
+  --type-fairy: #f0b6bc;
+}
+.normal {
+  background-color: var(--type-normal);
+  color: var(--clr-black);
+  text-align: center;
+}
+
+.fire {
+  background-color: var(--type-fire);
+  color: var(--cl-white);
+  text-align: center;
+  
+
+}
+
+.water {
+  background-color: var(--type-water);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.grass {
+  background-color: var(--type-grass);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.electric {
+  background-color: var(--type-electric);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.ice {
+  background-color: var(--type-ice);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.fighting {
+  background-color: var(--type-figthing);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.poison {
+  background-color: var(--type-poison);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.ground {
+  background-color: var(--type-ground);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.flying {
+  background-color: var(--type-flying);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.psychic {
+  background-color: var(--type-psychic);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.bug {
+  background-color: var(--type-bug);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.rock {
+  background-color: var(--type-rock);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.dark {
+  background-color: var(--type-dark);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.ghost {
+  background-color: var(--type-ghost);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.dragon {
+  background-color: var(--type-dragon);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.steel {
+  background-color: var(--type-steel);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+.fairy {
+  background-color: var(--type-fairy);
+  color: var(--cl-white);
+  text-align: center;
+}
+
+  .move{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .move10{
+    display: flex;
+    justify-content:start;
+    justify-content: center; 
+    
+  }
+
+  .moveimg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .move3{
+    text-align: center;  
+
+  }
+  .move4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #habilidades{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  #tipos{
+    text-align: center;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .move3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+  }
+  
+  .dato{
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+    background-color:#705898;
+    color: white;
+    margin-top: 2%;
+
+  }
+  .dato2{
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+    color: white;
+    background-color:#705898;
+  }
+  .dato3{
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: white;
+    background-color:#705898;
+
+  }
+  .move5{
+    display: flex;
+    justify-content: center;
+    
+   }
+   #btn7{
+    font-size: 20px;
+    display: flex;
+   margin-left: 45%;
+   background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 20px );
+   -webkit-backdrop-filter: blur( 20px );
+   border-radius: 10px;
+   border: 2px solid rgb(0, 0, 0);
+   margin-bottom: 5%;
+   
+    }
+    .imageness{
+    width: 150px;
+    height: 150px;
+    }
+
+  
+
+ 
+}
